@@ -202,3 +202,70 @@ p{
     display: inline;
     position: relative;
 }
+footer{
+    background: rgba(161, 0, 224, 0.15);
+    position: relative;
+    bottom: 0;
+    left: 0;
+    height: auto;
+    width: auto;
+    padding: 15px;
+    color: white;
+    clear: both;
+}
+.foot-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer p{
+    max-width: 300px;
+    margin: 10px, auto;
+    line-height: 28px;
+    font-size: 11px;
+}
+.socials{
+    line-height: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 1rem 0 3rem 0; */
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: white;
+}
+.socials a i{
+    font-size: 1.1rem;
+}
+.socials a:hover i{
+    color: aqua;
+}
+.bottom{
+    background: rgba(161, 0, 224, 0.15);
+    width: 100vw;
+    /* padding: 15px 0; */
+    text-align: center;
+}
+.bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    background: rgba(161, 0, 224, 0.15);
+}
+.bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}

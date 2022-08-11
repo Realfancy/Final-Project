@@ -42,7 +42,7 @@ nav{
 }
 label.Logo{
     color: whitesmoke;
-    font-size: large;
+    font-size: 50px;
     line-height: 80px;
     padding: 0px 100px;
     font-weight: bold;
@@ -81,7 +81,7 @@ a.active,a:hover{
 }
 @media (max-width: 952px){
     label.logo{
-        font-size: 30px;
+        font-size: 50px;
         padding-left: 50px;
     }
     nav ul li a{
@@ -170,3 +170,75 @@ input:focus~label, input:valid~label, textarea:focus~label, textarea:valid~label
 .row .input-group{
     flex-basis: 48%;
 }
+footer{
+    background-color: rgba(161, 0, 224, 0.15);
+    width: 100%;
+    /* text-align: center; */
+    color: white;
+    padding: 15px;
+    height: auto;
+    position: fixed;
+    clear: both;
+    left: 0;
+    bottom: 0;
+}
+.foot-content{
+    display:inline;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+} 
+ul{
+    list-style: none;
+}
+li{
+    display: inline;
+    color: white;
+}
+a:hover{
+    color:purple;
+}
+.socials{
+    color: white;
+    line-height: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h3{
+   line-height: 3rem;
+   font-weight: 400;
+}
+/* .bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    color: #fff;
+    text-align: center;
+} */
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: white;
+}
+.socials a i{
+    font-size: 1.1rem;
+}
+.bottom{
+    /* width: 100vw;
+    padding: 20px 0; */
+    text-align: center;
+    align-items: center;
+}
+.bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+
+
+
